@@ -29,6 +29,7 @@ import {
 } from '../tools/memoryTool.js';
 import { TodoWriteTool } from '../tools/todoWrite.js';
 import { WebSearchTool } from '../tools/web-search.js';
+import { AnalyzeImageTool } from '../tools/analyze-image.js';
 import { GeminiClient } from '../core/client.js';
 import { FileDiscoveryService } from '../services/fileDiscoveryService.js';
 import { GitService } from '../services/gitService.js';
@@ -869,6 +870,7 @@ export class Config {
     registerCoreTool(ShellTool, this);
     registerCoreTool(MemoryTool);
     registerCoreTool(TodoWriteTool, this);
+    registerCoreTool(AnalyzeImageTool, this);
     // Conditionally register web search tool only if Tavily API key is set
     if (this.getTavilyApiKey()) {
       registerCoreTool(WebSearchTool, this);
