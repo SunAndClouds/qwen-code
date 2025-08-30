@@ -39,7 +39,7 @@ Get started with Qwen Code at no cost using any of these free options:
 
 - **2,000 requests per day** with no token limits
 - **60 requests per minute** rate limit
-- Simply run `qwen` and authenticate with your qwen.ai account
+- Simply run `qwen_fork` and authenticate with your qwen.ai account
 - Automatic credential management and refresh
 - Use `/auth` command to switch to Qwen OAuth if you have initialized with OpenAI compatible mode
 
@@ -73,7 +73,7 @@ curl -qL https://www.npmjs.com/install.sh | sh
 
 ```bash
 npm install -g @qwen-code/qwen-code@latest
-qwen --version
+qwen_fork --version
 ```
 
 ### Install from source
@@ -95,7 +95,7 @@ brew install qwen-code
 
 ```bash
 # Start Qwen Code
-qwen
+qwen_fork
 
 # Example commands
 > Explain this codebase structure
@@ -135,7 +135,7 @@ The easiest way to get started - completely free with generous quotas:
 
 ```bash
 # Just run this command and follow the browser authentication
-qwen
+qwen_fork
 ```
 
 **What happens:**
@@ -233,7 +233,7 @@ export OPENAI_MODEL="qwen/qwen3-coder:free"
 
 ```bash
 cd your-project/
-qwen
+qwen_fork
 
 # Architecture analysis
 > Describe the main pieces of this system's architecture

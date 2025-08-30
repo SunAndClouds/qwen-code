@@ -9,7 +9,7 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "qwen": "dist/index.js"
+    "qwen_fork": "dist/index.js"
   },
   "scripts": {
     "build": "node ../../scripts/build_package.js",
